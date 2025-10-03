@@ -22,11 +22,9 @@ Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, de
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-_Add screenshots of your project here once deployed._
-
----
+![App Screenshot](Screenshot.png)
 
 ## 🌍 Live Demo
 
