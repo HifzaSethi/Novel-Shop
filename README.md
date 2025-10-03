@@ -26,10 +26,6 @@ Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, de
 
 ![App Screenshot](Screenshot.png)
 
-## 🌍 Live Demo
-
-👉 [View on GitHub Pages](https://hifzasethi.github.io/Novel-shop) _(after enabling GitHub Pages)_
-
 ---
 
 ## 📂 Project Setup
