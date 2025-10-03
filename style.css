@@ -1,0 +1,399 @@
+.container {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+}
+
+.header {
+    width: 115%;
+    background-color: rgba(186, 106, 106, 0.856);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: -75px;
+
+    padding-right: 100px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.logo {
+    margin-left: 15px;
+    border-radius: 25%;
+    width: 180px;
+    height: 80px;
+    background-image: url('images/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Create a new wrapper to hold both the menu and buttons */
+.menu-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    /* Add space between menu and buttons */
+}
+
+#menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: -5px;
+}
+
+#menu ul li {
+    margin: 5px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+}
+
+#menu a:hover {
+    background-color: rgba(230, 106, 131, 0.7);
+    color: rgb(148, 146, 146);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#button button {
+    width: 125px;
+    font-size: 20px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(239, 61, 97, 0.7);
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    cursor: pointer;
+    margin: 2px;
+}
+
+#button button:hover {
+    background-color: rgba(230, 106, 131, 0.7);
+    color: rgb(148, 146, 146);
+}
+
+
+#button button {
+    width: 125px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgba(239, 61, 97, 0.7);
+    border: none;
+    padding: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* Prevent any horizontal scrolling on the entire page */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* hides accidental overflows */
+}
+
+/* Owner section */
+.owner {
+    width: 100%;
+    /* full width */
+    max-width: 1200px;
+    /* same alignment as other sections */
+    margin: 0 auto;
+    /* center container */
+    height: 60px;
+    border-bottom: 4px double rgba(239, 61, 97, 0.7);
+    border-top: 4px double rgba(239, 61, 97, 0.7);
+    display: flex;
+    justify-content: center;
+    /* center text horizontally */
+    align-items: center;
+    /* center text vertically */
+    font-weight: 900;
+    font-family: Arial, sans-serif;
+    padding: 0 20px;
+    /* safe padding (no overflow) */
+    box-sizing: border-box;
+}
+
+.owner h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+}
+
+
+.orders {
+    background-color: rgba(253, 119, 133, 0.65);
+    text-align: center;
+    width: 100vw;
+}
+
+.orders img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    /* Adjust height to ensure image fits without scrolling */
+    border-radius: 10px;
+}
+
+.order-button {
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 98%;
+    height: 45px;
+    font-size: larger;
+    background-color: rgba(239, 61, 97, 0.7);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: rgba(230, 106, 131, 0.7);
+    color: rgb(148, 146, 146);
+}
+
+#deals {
+    width: 100vw;
+    text-align: center;
+    background-color: white;
+    display: flex;
+    /* Use flexbox */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* Allow wrapping if necessary */
+    /*padding: 20px; /* Add padding for spacing */
+}
+
+.excitingDeals {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.deal1 {
+    background-color: rgb(236, 203, 186);
+    padding-top: 10px;
+    flex: 1;
+    /* Allow deals to take up equal space */
+    max-width: 35%;
+    /* Limit the width of each deal to 30% */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in width */
+}
+
+.deal1 img {
+    width: 90%;
+    height: 300px;
+    border-radius: 2px;
+}
+
+.deals-text {
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 2px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deals-button {
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    height: 50px;
+    font-size: larger;
+    background-color: rgba(239, 61, 97, 0.7);
+    color: aliceblue;
+    cursor: pointer;
+    margin-top: -15px;
+    margin-left: -18px;
+    margin-bottom: 10px;
+}
+
+.deals-button:hover {
+    background-color: rgba(230, 106, 131, 0.7);
+    color: rgb(148, 146, 146);
+}
+
+#picture {
+    margin-left: 30px;
+    height: 230px;
+    padding-left: 20px;
+    /* Adjust padding as needed */
+}
+
+#afterstock {
+    background-color: rgb(236, 203, 186);
+    height: 330px;
+    width: 100vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    /* Vertically align content */
+}
+
+.space {
+    height: 200px;
+    width: 450px;
+
+}
+
+.Collection {
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 280px;
+    height: 270px;
+    margin: 0 30px;
+    overflow-y: scroll;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(182, 137, 137, 0.7);
+    background-image: url('images/scroll.jpg');
+    background-size: cover;
+    background-position: left;
+}
+
+.Collection ul li {
+    padding-top: -10px;
+    list-style-type: square;
+    color: white;
+    /* Ensure text color is black for better visibility */
+}
+
+.theme {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icons-row {
+    width: 100%;
+}
+
+.logof {
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.logof i {
+    margin-top: -22px;
+    margin-left: 26px;
+}
+
+/* .theme {
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.icons {
+    margin: 0 15px;
+    font-size: 24px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer b {
+    display: block;
+    margin-top: 10px;
+}
+
+
+.icons:hover {
+    background-color: rgba(230, 106, 131, 0.7);
+    color: rgb(148, 146, 146);
+    border-radius: 50%;
+    padding: 5px;
+} */
+.footer {
+    width: 100%;
+    background-color: rgba(186, 106, 106, 0.856);
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.footer .footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer h2 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.footer i {
+    font-size: 40px;
+    color: black;
+    margin-top: 10px;
+    display: block;
+}
+
+.footer p {
+    margin: 6px 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer p:hover {
+    color: white;
+}
+
+.footer-icons .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* space between icons */
+    margin-bottom: 10px;
+}
+
+.footer-icons .social-icons i {
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.footer-icons .social-icons i:hover {
+    color: white;
+    background-color: rgba(230, 106, 131, 0.7);
+    border-radius: 50%;
+    padding: 6px;
+}
+
+
+@media (min-width: 768px) {
+    .deal1 {
+        width: calc(50% - 20px);
+        display: inline-block;
+    }
+}
+
+@media (max-width: 767px) {
+    .deal1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
