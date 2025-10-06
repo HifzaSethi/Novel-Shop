@@ -28,10 +28,6 @@ Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, de
 
 ---
 
-## Live Demo
-
-🔗 [Check Now](https://hifzasethi.github.io/Novel-shop/)
-
 ## Project Setup
 
 Clone the repository:
