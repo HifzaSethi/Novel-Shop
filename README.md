@@ -28,9 +28,9 @@ Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, de
 
 ---
 
-## 🎮 Live Demo
+## Live Demo
 
-🔗 [Play Now](https://hifzasethi.github.io/Novel-shop/)
+🔗 [Check Now](https://hifzasethi.github.io/Novel-shop/)
 
 ## Project Setup
 
