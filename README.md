@@ -1,11 +1,11 @@
-# 📚 Novel Shop
+# Novel Shop
 
 A **frontend project** showcasing a responsive layout and elegant design for a novel shop.  
 Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, deals section, and responsive design for different screen sizes.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Responsive header with logo, navigation menu, and buttons
 - Deals section showcasing books in an elegant grid layout
@@ -14,7 +14,7 @@ Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, de
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**
 - **CSS3**
@@ -28,7 +28,11 @@ Built using **HTML, CSS, and Bootstrap**, it includes a clean navigation bar, de
 
 ---
 
-## 📂 Project Setup
+## 🎮 Live Demo
+
+🔗 [Play Now](https://hifzasethi.github.io/Novel-shop/)
+
+## Project Setup
 
 Clone the repository:
 
